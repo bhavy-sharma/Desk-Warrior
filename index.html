@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="team-container">
+        <h1>Meet Our Team</h1>
+
+        <!-- Main Coordinators Section -->
+        <h2>Main Coordinators</h2>
+        <div class="team-members main-coordinators">
+            <div class="team-card">
+                <img src="sakshi.png" alt="Team Member">
+                <h3>Sakshi Jain</h3>
+                <p>Main Co-ordinator (Home Page)</p>
+                <button class="know-more" onclick="showDetails('Sakshi Jain', 'Home Page Developer', 
+                `She is fully dedicated and passionate about her work, a great organizer. I don’t usually praise easily, but she truly deserves it. I never thought she would accomplish so much, but hats off to her! Salute to the one who genuinely took responsibility for this entire project. And honestly, putting jokes aside, you won’t believe it, but I truly thought this project wouldn’t happen—because until March 11, no one was ready to work on it. But finally, with your hard work and the team's coordination, this project turned out to be a success. Keep it up!`)">
+                Know More</button>
+            </div>
+
+            <div class="team-card">
+                <img src="fazal.jpg" alt="Team Member">
+                <h3>Mohd Fazal Ali</h3>
+                <p>Main Co-ordinator (Home Page)</p>
+                <button class="know-more" onclick="showDetails('Mohd Fazal Ali', 'Home Page Developer', 
+                `Fazal Bhai, you put in a lot of effort—seriously, it was amazing! You executed everything so well, planned, and explained everything on TLDraw perfectly. You worked really hard, and let me tell you, you are truly precious! And Fazal, I’ll i will gave you so much opportunity, trust me, you are meant to achieve great things. Working on a project with you is an experience like no other—seriously, no one else makes it this enjoyable. You are truly a hardworking and dedicated person. Keep it up!`)">
+                Know More</button>
+            </div>
+        </div>
+
+        <!-- Team Members Section -->
+        <h2>Team Members</h2>
+        <div class="team-members">
+            <div class="team-card">
+                <img src="gagan.jpg" alt="Team Member">
+                <h3>Gagan</h3>
+                <p>Member (About Us Page)</p>
+                <button class="know-more" onclick="showDetails('Gagan Thakur', 'About Us Page Developer', 
+                `Seriously, I can’t imagine what you’ve accomplished. I honestly didn’t think you’d create such an amazing page, but you proved me wrong—and that in itself is a big achievement. You made every change we suggested, and that’s truly commendable. Hats off, Gagan brother! And Gagan, the only advice I’ll give you is to always have the hunger to learn. Just stay consistent and keep going—getting things done is my responsibility. I hope you understand. Keep it up!`)">
+                Know More</button>
+            </div>
+
+            <div class="team-card">
+                <img src="himanshu.png" alt="Team Member">
+                <h3>Himanshu Gaur</h3>
+                <p>Member (Contact Us Page)</p>
+                <button class="know-more" onclick="showDetails('Himanshu Gaur', 'Gallery Page Developer', 
+                `Himanshu bhai, to be honest, I didn’t think you’d be able to pull it off, especially since you said the code would be ready 5 hours before the deadline—but it wasn’t. But after that, the way you worked is truly commendable. Getting all this done in such a short time is an incredible achievement! And Himanshu, I know this project came up randomly, and making it public might have been the right decision. Thank you for connecting me to Kinik Upadhya Sir. Keep it up!`)">
+                Know More</button>
+            </div>
+
+            <div class="team-card">
+                <img src="aastha.jpeg" alt="Team Member">
+                <h3>Aastha Sharma</h3>
+                <p>Member (Achivement Page)</p>
+                <button class="know-more" onclick="showDetails('Aastha Sharma', 'Developer of Achivement Page', 
+                `Aastha has created the Achievement page with dedication and hard work. She put in a lot of effort to ensure everything looks perfect. The way she managed the details and executed the design is truly commendable. Her contribution has added great value to the project, and she definitely deserves appreciation for it! And Aastha, you’ve built the page—no doubt about that—but I think one piece of advice might help you. Start everything from scratch once more. You’re learning new things, which is great, but learning alone isn’t enough—implementing what you’ve learned is just as important. So, keep going and keep improving. Keep it up!`)">
+                Know More</button>
+            </div>
+
+          
+        </div>
+    </div>
+
+    <!-- Modal for More Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-name"></h2>
+            <p id="modal-role"></p>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
